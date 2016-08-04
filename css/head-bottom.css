@@ -1,0 +1,65 @@
+﻿@charset "utf-8";
+/*=========================Reset_start==========================*/
+body,h1,h2,h3,h4,h5,h6,div,p,dl,dt,dd,ol,ul,li,form,table,th,td,a,img,span,strong,var,em,input,textarea,select,option{margin: 0; padding: 0;}
+html,body{font-family:"微软雅黑",Arail,Tabhoma; font-size: 12px; text-align: left;}
+ul,ol{list-style: none;}
+img{border: 0;}
+input,select,textarea{outline:0;border: 0;}
+textarea{resize:none; overflow: auto;}
+table{border-collapse: collapse; border-spacing: 0;}
+th,strong,var,em{font-weight: normal; font-style: normal;}
+a{text-decoration: none;}
+
+/*==========================Reset_End===========================*/
+
+/*——————————————————————————————————————————————————头部begin————————————————————————————————————————————————*/
+	.header{margin: 0 auto;width: 1000px;}
+	.head{height: 113px;width: 100%; border-bottom: 2px solid #176fbb;min-width: 1000px;}
+	.header{height: 113px;position: relative;overflow: hidden;}
+	a{text-decoration: none;color: #3c3c3c;}
+	.header1{width: 572px;height: 28px;float: right;position: absolute;
+	top: 15px;right: 21px;overflow: hidden;line-height: 25px;}
+	.header1 a:hover{color: blue;}
+	.tel{width: 140px; background:url(../img/01.png) no-repeat;
+	float: left;}
+	.tel,.inf{border-right: 2px solid black; float: left;font-size: 12px;
+	height: 19px;line-height: 19px;padding: 0 16px;margin: 5px 0 0;}
+	.daohang:hover{color:#176fbb;}
+	.xinglibox{background: url(../img/02.png) 15px 0px no-repeat;padding: 0 16px 0px 48px;
+	float: left;font-size: 12px;font-weight: bolder;height: 28px;line-height: 28px;}
+	.ipt{width: 148px;height: 26px;font-size: 15px;padding-left: 3px; float: left;border: 1px solid #3c3c3c;line-height:26px; } 
+	.sousuo{width: 27px;height: 28px;background: url(../img/sousuo.jpg);float: left;} 
+	.header2{font-weight: bold;width: 672px;height: 22px;position: absolute; 
+	bottom: 8px;right: 127px;line-height: 22px; overflow: hidden;}
+	.header2 a{padding: 0 2px;font-size: 18px;float: left;color: #3c3c3c;}
+	.pict{width: 132px;height: 90px; background: url(../img/04.png);
+	position: absolute;left: 8px;top: 14px;}
+	.daohang{margin-bottom: 0px;margin: 0 18px;}
+	.daohang1{background: url(../img/05.png) 0 0 no-repeat;width: 22px;height: 22px;}
+/*——————————————————————————————————————————————————头部end——————————————————————————————————————————————————*/
+
+/*——————————————————————————————————————————————————底部begin————————————————————————————————————————————————*/
+	.bottom .content1 a{color:#aab5ba;}
+	.bottom .ttop a{font-size: 18px;color: #dde1e3;}
+	.bottom a:hover{color: #e49b1d;}
+
+	.bottom{margin: 0 auto; background: #023c4d;min-width: 1000px;}
+	.bottom .content1{width: 1000px; margin:0 auto ; font-size: 15px;color: #aab5ba;overflow: hidden;}
+	.bottom .content11,.content12,.content13,.content14,.content15{float: left; margin: 22px 0 22px 0;margin-right:80px}
+	.bottom .content11{margin-left: 101px;}
+	.bottom .content1 li{margin-bottom: 11px;}
+	.bottom .content14 .content141{margin-top: 21px;}
+	.bottom .content15{margin-left: 30px;} 
+	.bottom .content151{font-size: 20px;color: #fff;}
+
+	#content152{margin-top: 23px;font-size: 14px;line-height: 25px; height: 25px;background: url(../img/jyc-25.jpg) 0 0 no-repeat;
+	padding-left: 12px;}
+	#content152 a{ height: 25px;}
+	.bottom .content15 .left{float: left; width: 5px;height: 25px;background: url(../img/jyc_02.png) 0 0 no-repeat;}
+	.bottom .content15 .con{float: left; height: 25px;background: #fff;line-height: 25px;font-size: 14px;}
+	.bottom .content15 .right{float: left; width: 5px;height: 25px;background: url(../img/jyc_03.png) 0 0 no-repeat;}
+
+	.bottom .content2{border-top: 1px solid #fff;}
+	.bottom .content21{width: 1000px; margin:0 auto ;padding: 19px 0px 22px 0px;font-size: 15px;color: #bec1c2;}
+	.bottom .content22{padding-left: 220px;}
+/*——————————————————————————————————————————————————底部end——————————————————————————————————————————————————*/
